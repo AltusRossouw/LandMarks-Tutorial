@@ -14,6 +14,7 @@
 		BF5C88462BC95F22000C6333 /* LandMarks_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C88452BC95F22000C6333 /* LandMarks_TutorialTests.swift */; };
 		BF5C88502BC95F22000C6333 /* LandMarks_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C884F2BC95F22000C6333 /* LandMarks_TutorialUITests.swift */; };
 		BF5C88522BC95F22000C6333 /* LandMarks_TutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C88512BC95F22000C6333 /* LandMarks_TutorialUITestsLaunchTests.swift */; };
+		BF5C885F2BC963F7000C6333 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C885E2BC963F7000C6333 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BF5C884B2BC95F22000C6333 /* LandMarks-TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LandMarks-TutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5C884F2BC95F22000C6333 /* LandMarks_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarks_TutorialUITests.swift; sourceTree = "<group>"; };
 		BF5C88512BC95F22000C6333 /* LandMarks_TutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarks_TutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF5C885E2BC963F7000C6333 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				BF5C88342BC95F20000C6333 /* LandMarks_TutorialApp.swift */,
 				BF5C88362BC95F20000C6333 /* ContentView.swift */,
 				BF5C88382BC95F22000C6333 /* Assets.xcassets */,
+				BF5C885E2BC963F7000C6333 /* CircleImage.swift */,
 				BF5C883A2BC95F22000C6333 /* Preview Content */,
 			);
 			path = "LandMarks-Tutorial";
@@ -259,6 +262,7 @@
 			files = (
 				BF5C88372BC95F20000C6333 /* ContentView.swift in Sources */,
 				BF5C88352BC95F20000C6333 /* LandMarks_TutorialApp.swift in Sources */,
+				BF5C885F2BC963F7000C6333 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
