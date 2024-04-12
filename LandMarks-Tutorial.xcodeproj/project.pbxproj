@@ -16,6 +16,8 @@
 		BF5C88522BC95F22000C6333 /* LandMarks_TutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C88512BC95F22000C6333 /* LandMarks_TutorialUITestsLaunchTests.swift */; };
 		BF5C885F2BC963F7000C6333 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C885E2BC963F7000C6333 /* CircleImage.swift */; };
 		BF5C88612BC965B3000C6333 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C88602BC965B3000C6333 /* MapView.swift */; };
+		BF5C88662BC96C74000C6333 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = BF5C88652BC96C74000C6333 /* landmarkData.json */; };
+		BF5C88682BC96C95000C6333 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C88672BC96C95000C6333 /* Landmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BF5C885E2BC963F7000C6333 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		BF5C88602BC965B3000C6333 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		BF5C88622BC969EB000C6333 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BF5C88652BC96C74000C6333 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		BF5C88672BC96C95000C6333 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		BF5C88282BC95F20000C6333 = {
 			isa = PBXGroup;
 			children = (
+				BF5C88652BC96C74000C6333 /* landmarkData.json */,
 				BF5C88622BC969EB000C6333 /* README.md */,
 				BF5C88332BC95F20000C6333 /* LandMarks-Tutorial */,
 				BF5C88442BC95F22000C6333 /* LandMarks-TutorialTests */,
@@ -102,6 +107,7 @@
 			children = (
 				BF5C88342BC95F20000C6333 /* LandMarks_TutorialApp.swift */,
 				BF5C88362BC95F20000C6333 /* ContentView.swift */,
+				BF5C88672BC96C95000C6333 /* Landmark.swift */,
 				BF5C88382BC95F22000C6333 /* Assets.xcassets */,
 				BF5C885E2BC963F7000C6333 /* CircleImage.swift */,
 				BF5C88602BC965B3000C6333 /* MapView.swift */,
@@ -241,6 +247,7 @@
 			files = (
 				BF5C883C2BC95F22000C6333 /* Preview Assets.xcassets in Resources */,
 				BF5C88392BC95F22000C6333 /* Assets.xcassets in Resources */,
+				BF5C88662BC96C74000C6333 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +276,7 @@
 				BF5C88612BC965B3000C6333 /* MapView.swift in Sources */,
 				BF5C88352BC95F20000C6333 /* LandMarks_TutorialApp.swift in Sources */,
 				BF5C885F2BC963F7000C6333 /* CircleImage.swift in Sources */,
+				BF5C88682BC96C95000C6333 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
